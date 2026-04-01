@@ -72,8 +72,8 @@ autocompletesearch/
 
 ## 🎯 How It Works
 
-1. User types in the search input field
-2. A 300ms debounce timer prevents excessive API calls
+1. User types in the search input field.
+2. A 300ms debounce timer prevents excessive API calls.
 3. Application checks the cache first for matching results
 4. If not cached, fetches from DummyJSON Recipes API
 5. Results are cached and displayed in a dropdown
